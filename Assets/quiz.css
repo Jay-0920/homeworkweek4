@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: hsl(0, 4%, 63%);
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid hsl(103, 93%, 46%);
+    border-radius: 35px;
+    margin: 20px;
+}
+
+
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(88, 85, 86);
+}
+
+#quizBody {
+    text-align: center;
+    padding: 20vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: hsl(103, 93%, 46%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', arial;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: #bff60c;
+}
+
+#quiz {
+    text-align: center;
+}
